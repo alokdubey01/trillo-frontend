@@ -1,3 +1,4 @@
+import { Button } from '@material-ui/core';
 import React from 'react'
 // import { Paper,Button, IconButton, InputBase } from '@material-ui/core';
 // import ClearIcon from '@material-ui/icons/Clear'
@@ -24,7 +25,7 @@ class  Inputcard extends React.Component {
             <div className="card">
                 <form class="confirm" onSubmit={this.handlesubmit}>
                     <input name="newcard2" placeholder="enter a title for this card" value={this.state.newcard2} onChange={this.handleclick}/>
-                    <button type="submit">Add a new card</button>
+                    <Button variant="outlined" type='submit'>Add Task</Button>
                 </form>
             </div>
         )

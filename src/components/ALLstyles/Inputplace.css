@@ -1,13 +1,12 @@
-.inputplace{
-     padding: 16px 16px 16px 32px;
-     margin: 0px 16px 16px 16px;
-     background-color: #EBECF0;
-     margin-top: 10px;
-
- }
- .inputplace:hover{
-     background-color:grey;
- }
-.place{
-     margin-top:10px ;
-     }
+.inputplace {
+  padding: 16px 16px 16px 32px;
+  background-color: #ebecf0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.inputplace:hover {
+  background-color: rgb(197, 197, 197);
+}
+.place {
+  margin-top: 10px;
+}

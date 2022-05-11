@@ -1,3 +1,4 @@
+import { Button } from '@material-ui/core';
 import React from 'react'
 import '../ALLstyles/Inputcard.css';
 class  Inputcard extends React.Component {
@@ -22,7 +23,7 @@ class  Inputcard extends React.Component {
             <div className="card">
                 <form className="confirm" onSubmit={this.handlesubmit}>
                     <input name="newcard" placeholder="enter a title for this card" value={this.state.newcard} onChange={this.handleclick}/>
-                    <button type="submit" >Add a new card</button>
+                    <Button variant="outlined" type='submit'>Add Task</Button>
                 </form>
             </div>
         )

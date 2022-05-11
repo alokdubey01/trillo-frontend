@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+.bar {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+  height: 45px;
+}
+.bar_2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 40px;
+}
+.bar_2 .leftbar {
+  margin-left: 5px;
+  color: white;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-items: save;
+}
+.leftbar > h3 {
+  margin-right: 10px;
+}
+.bar_2 .leftbar > button {
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  box-shadow: none;
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 4px 0 0;
+  padding: 5px;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+.leftBar {
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+.forms {
+  position: relative;
+}
+.forms > input {
+  display: flex;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: hsla(0, 0%, 100%, 0.5);
+  float: left;
+  font-size: 13px;
+  height: 32px;
+  line-height: 19px;
+  margin: 0;
+  margin-left: 8px;
+  outline: none;
+  padding-left: 8px;
+  padding-right: 30px;
+  transition: width 0.15s;
+  width: 180px;
+}
+.forms > button {
+  color: #fff;
+  position: absolute;
+  right: 0.5px;
+  top: -8.5px;
+}
+.head {
+  font-size: 10px;
+}
+
+.leftBar > button {
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  box-shadow: none;
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 4px 0 0;
+  padding: 5px;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+.middle {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  opacity: 0.6;
+  cursor: pointer;
+  justify-content: space-between;
+  width: 80px;
+}
+.middle > button {
+  height: 18px;
+  position: absolute;
+  width: 18px;
+}
+.middle > h1 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 27px;
+  font-family: "Lora", serif;
+}
+.rightBar {
+  display: flex;
+  align-items: flex-end;
+  margin: 5px;
+}
+.rightBar > button {
+  border-radius: 2.5px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  box-shadow: none;
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+  height: 32px;
+  justify-content: center;
+  margin-right: 20px;
+  line-height: 32px;
+  margin: 0 4px 0 0;
+  padding: 0;
+  white-space: nowrap;
+}
+.rightBar > .MuiAvatar-root {
+  width: 36px !important;
+  height: 32px !important;
+}
+.rightbar {
+  display: flex;
+  align-items: flex-end;
+  margin: 5px;
+  color: white;
+}
+.show {
+  font-size: 13px;
+}
+.rightbar > button {
+  border-radius: 2.5px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  box-shadow: none;
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+  height: 32px;
+  justify-content: center;
+  margin-right: 20px;
+  line-height: 32px;
+  margin: 0 4px 0 0;
+  padding: 5px;
+  white-space: nowrap;
+}
+.star {
+  color: goldenrod;
+}
+@media screen and (max-width: 480px) {
+  .bar {
+    width: 120%;
+  }
+  .bar_2 {
+    width: 130%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bar {
+    width: 150%;
+  }
+  .bar_2 {
+    width: 150%;
+  }
+}

@@ -3,13 +3,13 @@
     margin: 0px 16px 16px 16px;
 }
 .confirm>button{
-    background: #5aac44;
+    background: black;
     color: #fff;
-    padding: 10px;
-    margin-left: -20px;
-    margin-top: 5px;
-    
-
+    margin-left: -25px;
+    margin-top: 10px;
+}
+.confirm>button:hover{
+    background: #2e2e2e;
 }
 .confirm>input{
     margin-left: -28px;
@@ -18,10 +18,13 @@
     padding: 6px 70px 42px;
     position: relative;
 }
-.confirm>button:hover{
-    background:fade(#5aac44,0.25);
-}
 .confirm{
     margin: 0px 16px 16px 16px;
 
+}
+.confirm input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
 }
